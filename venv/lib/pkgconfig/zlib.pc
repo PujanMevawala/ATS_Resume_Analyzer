@@ -1,0 +1,13 @@
+prefix=/Users/pujanmevawala/Documents/Programming/ProjectAI/ATS_Resume/venv
+exec_prefix=/Users/pujanmevawala/Documents/Programming/ProjectAI/ATS_Resume/venv
+libdir=/Users/pujanmevawala/Documents/Programming/ProjectAI/ATS_Resume/venv/lib
+sharedlibdir=/Users/pujanmevawala/Documents/Programming/ProjectAI/ATS_Resume/venv/lib
+includedir=/Users/pujanmevawala/Documents/Programming/ProjectAI/ATS_Resume/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
