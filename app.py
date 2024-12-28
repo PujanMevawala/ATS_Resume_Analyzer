@@ -95,7 +95,7 @@ st.markdown("""
 
 # Sidebar Configuration
 with st.sidebar:
-    st.image("ats_logo.webp", use_column_width=True)  # Placeholder for logo
+    st.image("ats_logo.webp", use_container_width=True)  # Placeholder for logo
     st.header("Upload & Analyze")
     input = st.text_area("Paste Job Description Here 👇", key="input", placeholder="Paste the job description to analyze...")
 
